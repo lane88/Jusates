@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/Aithaks/Ckals/server"
+	"github.com/lane88/Jusates/server"
 	"github.com/jpillora/opts"
 )
 
-var VERSION = "0.0.0-src" //set with ldflags
+var VERSION = "0.9.9-src" //set with ldflags
 
 func main() {
 	s := server.Server{
